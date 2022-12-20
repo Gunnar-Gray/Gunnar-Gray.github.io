@@ -1,0 +1,5 @@
+.navbar { size: 5px; background-color: rgba(0, 0, 0, 0.467) !important; padding-top: 0px !important; box-shadow: rgba(0, 0, 0, 0) 1px 1px 1px !important; }
+body { background: linear-gradient(rgb(0, 0, 0) 39%, rgb(0, 0, 0) 40%, rgb(7, 7, 7) 69%, rgb(77, 34, 4) 100%)}
+.carousel-img{ width:80vw; height:auto; object-fit: contain; }
+  
+  

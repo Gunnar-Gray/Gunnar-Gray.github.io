@@ -1,0 +1,240 @@
+body {
+
+  padding-bottom: 3rem;
+  color: #ffffff;
+  
+}
+
+.navbar-brand{
+  color:rgb(255, 255, 255);
+  margin-bottom: .01rem;
+  border-bottom: 1px solid rgb(250, 156, 49);
+  padding-right: 1px;
+  padding-left: .5px;
+  background-color: rgba(0, 0, 0, 0);
+  padding-bottom: 0px;
+
+}
+
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  
+  margin-bottom: 10rem;
+  height: 100vh;
+  width:100vw;
+  text-align: center;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  
+  bottom: 5rem;
+  z-index: 10 !important;
+  text-align: center;
+  color: rgb(194, 194, 194);
+  font-family:serif;
+  
+}
+
+.carousel-caption h5{
+
+  text-shadow: 5px 5px 5px rgb(0, 0, 0), 0px 0px 0px rgb(255, 255, 255);
+  font-size:4vw;
+
+}
+
+.carousel-caption p{
+  
+  text-shadow: 5px 5px 5px rgb(0, 0, 0), 0px 0px 0px rgb(255, 255, 255);
+  font-size:xx-large;
+  
+ 
+}
+
+/* Declare heights because of positioning of img element */
+
+.carousel-indicators{
+
+  height:5vh;
+  
+
+  }
+
+  
+
+.carousel-item {
+
+  width:100vw !important;
+  height:99.9vh !important;
+  object-fit: contain;
+
+}
+
+
+.carousel{              
+ 
+  
+  width:100vw ;
+  height:100vh;
+  overflow:-moz-hidden-unscrollable;
+  
+ 
+
+}
+
+
+
+.carousel-video{
+
+  height:auto;
+  width: 100vw !important;;
+  text-align:center;
+
+
+}
+
+.featurette-video{
+
+  height:auto ;
+  width:20vw ;
+  border-radius: 1.4%;
+  min-width:300px;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.btn-secondary{
+  color: #d39332de;
+  background-color: rgb(26, 26, 26);
+  
+}
+/* rtl:end:ignore */
+
+
+.product-selction{
+  text-align: center;
+  margin-bottom: 70px;
+  border-radius: 3%;
+  
+}
+
+.process{
+
+  text-align: center;
+  color: #c59429;
+
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
